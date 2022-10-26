@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+        uri: mongodb+srv://Nikhil:Nikhil%4001@springproductapi.zg4gxl0.mongodb.net/?retryWrites=true&w=majority
+        database: User
