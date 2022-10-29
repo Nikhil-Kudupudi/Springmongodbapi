@@ -42,5 +42,9 @@ public class ProductController {
 	public Userproducts getproducts(@PathVariable String email ){
 		return service.getproducts(email);
 	}
+	@PutMapping("/updateproduct")
+	public String updateproducts(@RequestBody UpdateProduct product) {
+	    return service.updateproduct(product);
+	}
 	
 }
